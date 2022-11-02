@@ -11,17 +11,25 @@
     --opensans: 'Open Sans', sans-serif;
 }
 
-/* .container {
+body{
+    background-color: #f5f5f5;
+}
+
+.header__section{
+background-color: aliceblue;
+}
+
+.container {
     max-width: 1140px;
     min-width: 440.46px;
     margin: auto;
-} */
+}
 
 .nav__body {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    border: 1px solid aqua;
-    padding: 0px 30px;
+    height: 70px;
+
 }
 
 .logo img {
@@ -36,7 +44,7 @@
 }
 
 .quotes {
-    font-size: 22px;
+    font-size: 20px;
     color: #FF8A00;
     text-transform: uppercase;
     font-style: var(--montserrat);
